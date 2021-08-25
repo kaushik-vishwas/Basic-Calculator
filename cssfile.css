@@ -1,0 +1,108 @@
+body{
+    background: linear-gradient(to left, #47033e,#162994);
+}
+
+.calci{
+    width:  500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    transition: 0.25px;
+    text-align: center;
+}
+#display{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    width: 220px;
+    font-size: 17px;
+    font-family: sans-serif;
+    height: 35px;
+    padding-left: 20px;
+    margin: auto;
+    border: 2px solid rgb(6, 231, 55);
+    color: rgb(100, 6, 6);
+}
+.btndesign{
+    padding: 10px 23px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #064150;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 7px #999;
+}
+.btndesign:hover{background-color: #02252e;}
+.btndesign:active{
+    background-color: #044106;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px); 
+}
+.operatordesign
+{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #038075;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 7px #999;
+}
+.operatordesign:hover{background-color: #045750;}
+.operatordesign:active{
+    background-color: #033304;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px); 
+}
+.equalto{
+    padding: 13px 50px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #0a5803;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px #999;
+}
+.equalto:hover{background-color: #032b09;}
+.equalto:active{
+    background-color: #013002;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.remove{
+    padding: 13px 20px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #0b4406;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px #999;
+}
+.remove:hover{background-color: #063501;}
+.remove:active{
+    background-color: #032c04;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.basic{
+    padding: 15% 10%;
+    font-size: 30px;
+    color: #ffc400;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
